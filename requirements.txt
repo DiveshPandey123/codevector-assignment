@@ -3,11 +3,9 @@ uvicorn[standard]==0.24.0
 sqlalchemy==2.0.23
 pydantic==2.5.0
 pydantic-settings==2.1.0
-asyncpg==0.29.0
+asyncpg==0.28.0
 python-dotenv==1.0.0
 pytest==7.4.3
 pytest-asyncio==0.21.1
 hypothesis==6.88.0
 httpx==0.25.2
---only-binary=:all:
---no-binary=certifi
