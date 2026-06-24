@@ -3,8 +3,8 @@ services:
     name: product-browsing-backend
     runtime: python
     pythonVersion: "3.11"
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: python main.py
     envVars:
       - key: DATABASE_URL
         scope: build,runtime
